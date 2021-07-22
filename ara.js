@@ -1,2 +1,2 @@
-$("body").style.overflowY = "visible";
-$(".paywall").style.display = "none";
+document.body.style.overflowY = "visible";
+document.getElementsByClassName(".paywall")[0].style.display = "none";
